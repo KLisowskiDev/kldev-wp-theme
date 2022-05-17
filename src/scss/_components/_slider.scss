@@ -1,0 +1,16 @@
+.slider {
+
+    .swiper-slide {
+        min-height: 80vh;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__content {
+        color: $white;
+        background-color: rgba($black, 0.7);
+        padding: 2rem;
+    }
+}
